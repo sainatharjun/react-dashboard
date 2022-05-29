@@ -1,0 +1,53 @@
+#middleColumn{
+padding: 40px 60px
+}
+.middleColumn-header{
+  text-align: left;
+}
+.middleColumn-header p{
+  color: rgb(45, 130, 241);
+}
+.numberDiv{
+  text-align: left;
+  margin-top: 40px;
+}
+.numberDiv-child span{
+  font-size: smaller;
+  color: gray;
+}
+.numberDiv hr{
+  border-color: rgb(13, 63, 129);
+  border-width: 2px;
+}
+.chartDiv{
+  text-align: left;
+  margin-top: 40px;
+  /* width: 500px; */
+  height:300px!important;
+}
+.comparisonDiv{
+  text-align: left;
+  margin-top: 40px;
+}
+.comparisonDiv p{
+  font-size: smaller;
+  color: gray;
+}
+.doughnutDiv canvas{
+  height: 100px!important;
+  width: 100px!important;
+}
+.doughnutDiv+p{
+  display: inline-block;
+
+}
+.doughnutDiv{
+  display: inline-block;
+  text-align: center;
+}
+.compText{
+  font-size: small;
+}
+.compText hr{
+  border-color: rgba(0, 0, 0, 0.5);
+}

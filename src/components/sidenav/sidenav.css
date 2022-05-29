@@ -1,0 +1,39 @@
+#sidenav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70px;
+  box-sizing: border-box;
+  padding: 10px 0px 10px 10px;
+}
+.sidenav-inner{
+  position: fixed;
+  height: 100vh;
+
+}
+.sidenav-middle{
+  margin-top: 50px;
+}
+.icons{
+  box-sizing: border-box;
+  margin: 20px 10px;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  transition: .3s;
+  border-radius: 3mm;
+  cursor: pointer;
+}
+.icons:hover{
+  background-color: rgb(11, 11, 175);
+  color: white;
+} 
+.icons:hover>.svgIcons{
+  fill:white
+}
+.sidenav-bottom{
+  position: absolute;
+  bottom: 10px;
+  padding-bottom: 10px;
+
+}

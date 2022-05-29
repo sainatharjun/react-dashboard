@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Sidenav from './components/sidenav/sidenav'
+import LeftColumn from './components/leftColumn/leftColumn'
+import MiddleColumn from './components/middleColumn/middleColumn';
+import RightColumn from './components/rightColumn/rightColumn';
+import Bottomnav from './components/bottomnav/bottomnav';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App row">
+      <Sidenav/>
+      <LeftColumn/>
+      <MiddleColumn/>
+      <RightColumn/>
+      <Bottomnav/>
     </div>
   );
 }

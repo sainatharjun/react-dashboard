@@ -2,37 +2,80 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (max-width: 600px) {
+#sidenav{
+  display: none!important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+  padding: 30px 30px 80px 30px;
 }
-
-.App-link {
-  color: #61dafb;
+#leftColumn{
+  background-color: white!important;
 }
+#leftColumn h5,#leftColumn h3{
+  margin: 0;
+}
+.iWantTo{
+  width: 100%;
+}
+.iWantTo i{
+  display: none;
+}
+.moblcpan{
+  display: inline!important;
+}
+#leftColumn .row:nth-child(1) {
+  width: auto!important;
+}
+.leftColumn-content{
+  background-color: rgb(235, 235, 235)!important;
+  padding: 30px 20px!important ;
+  border-radius: 3mm;
+  margin: 12px 0;
+}
+.leftColumn-content h3{
+  font-size: xx-large;
+}
+.moblc{
+display: inline;
+float: left;
+margin: 20px 20px 20px 0px;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#middleColumn {
+  padding: 40px 20px!important;
+}
+.numberDiv-child:nth-child(1){
+  flex: none;
+}
+.housingAdvance{
+  display: none!important;
+}
+.retirementStrategy a{
+  display: none;
+}
+.retirementStrategy{
+  padding: 0!important;
+  border-radius: 3mm!important;
+}
+.mobrs{
+  padding: 25px;
+}
+.mobrs p{
+  font-size:15px!important;
+}
+.mobrs input{
+  width: 80%;
+}
+.updateBtn{
+  margin: 0!important;
+  border-radius: 5px 5px 3mm 3mm;
+  font-size: 15px!important;
+}
+#bottomnav{
+  display: flex!important;
+}
+.mobNotifications{
+  display: block!important;
+}
 }
